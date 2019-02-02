@@ -1,1 +1,0 @@
-# kirdro-backend
