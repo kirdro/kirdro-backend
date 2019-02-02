@@ -16,7 +16,7 @@ services:
       - DATABASE_AUTHENTICATION_DATABASE=strapi
       - HOST=localhost
     ports:
-      - 0.0.0.0.8080:1337
+      - "127.0.0.1:8080:1337"
     volumes:
       - ./strapi-app:/usr/src/api/strapi-app
       #- /usr/src/api/strapi-app/node_modules
